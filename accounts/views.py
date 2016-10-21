@@ -11,7 +11,6 @@ from django.core.urlresolvers import reverse
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template import RequestContext, loader
 from django.contrib.auth.hashers import make_password, check_password
-from django.core.mail import send_mail
 from utils.functionTools.generalFunction import noneIfEmptyString,noneIfNoKey,myError
 
 import json

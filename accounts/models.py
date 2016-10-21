@@ -10,10 +10,9 @@ class User(models.Model):
 	isConfirmed = models.BooleanField(default=False)
 
 	def __unicode__(self):
-		return self.name
+		return self.userName
 
 	class Meta:
-		managed = False
 		db_table = 'bio_user'
 
 class Token(models.Model):
@@ -26,5 +25,4 @@ class Token(models.Model):
 		return self.token
 
 	class Meta:
-		managed = False
 		db_table = 'bio_usersafety'
