@@ -15,11 +15,8 @@ install:
   - pip install coveralls
 
 # command to run test
-before_script:
-  - python manage.py makemigrations
-  - python manage.py migrate
- 
 script: 
   - coverage run --source=design,system,geneRelationship manage.py test
 after_success:
   - coveralls
+ 
