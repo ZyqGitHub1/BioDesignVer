@@ -1,8 +1,6 @@
 #BioDesigner Coral - IGEM HFUT Software 2016
 [![Build Status](https://travis-ci.org/ZyqGitHub1/BioDesignVer.svg?branch=master)](https://travis-ci.org/ZyqGitHub1/BioDesignVer)
 
-[![Coverage Status](https://coveralls.io/repos/github/ZyqGitHub1/BioDesignVer/badge.svg?branch=master)](https://coveralls.io/github/ZyqGitHub1/BioDesignVer?branch=master)
-
 Synthetic Biology Design toolkit
 
 ##System Introduction
