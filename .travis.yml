@@ -13,6 +13,7 @@ install:
   - pip install elasticsearch
   - pip install Pillow
   - pip install coveralls
+  - pip install pymongo
 
 # command to run test
 script: 
